@@ -1,25 +1,66 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from 'react';
+import ToDoList from './todo/ToDoList';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+            <ToDoList/>
     </div>
-  );
+  )
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react';
+// import Counter from './Counter';
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Counter startValue={5} />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import React from 'react';
+// import Clock from './Clock';
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Clock />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import React from 'react';
+// import Greeting from './Greeting';
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Greeting defaultName="World" />
+//     </div>
+//   );
+// }
+
+// export default App;
